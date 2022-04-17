@@ -1,0 +1,20 @@
+#board {
+	border: 1px solid #000;
+}
+#gameover {
+    display: none;
+    font-size: 100px;
+    position: absolute;
+    top: 50px;
+    color: red;
+    background-color: black;
+}
+
+.row {
+    height: 20px;
+    background-color: red;
+}
+.tile {
+    display: inline-block;
+    background-color: #eee;
+}
